@@ -1,8 +1,8 @@
 ﻿using Unity.Entities;
-using Unity.Profiling;
+using Unity.Mathematics;
 
 [GenerateAuthoringComponent]
 public struct MyComponent : IComponentData
 {
-    public float MyValue;
+    public float3 Destination;
 }
